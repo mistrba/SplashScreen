@@ -1,0 +1,43 @@
+html, body{
+    background:#E9E9E9;
+    overflow:hidden;
+}
+#canvas{
+    margin:0 auto;
+    display:block;
+}
+h1{
+    font-family:Roboto;
+    color: #070707;
+    font-size: 80px;
+    position:absolute;
+    top:49%;
+    left:50%;
+    transform: translate(-100%,-110%);
+}
+h2{
+    font-family:Roboto;
+    color: #070707;
+    font-size: 80px;
+}
+.animate-bottom {
+  position: relative;
+margin-top: 300px;
+  text-align: center;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+#myDiv {
+  display: none;
+  text-align: center;
+}
